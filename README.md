@@ -1,5 +1,9 @@
 ### Hi there Guys 👋
 
+<h3><b><i>🏆 Profile Statistics :</i></b></h3>
+
+<a href="https://github.com/BlackHat-Abhi"><img height="25" title="Counter" src="https://komarev.com/ghpvc/?username=BlackHat-Abhi&color=blueviolet&style=flat-square"></a>
+
 ![github stats](https://github-readme-stats.vercel.app/api?username=BlackHat-Abhi&show_icons=true&include_all_commits=true&theme=chartreuse-dark&cache_seconds=3200)
 
 <img src="https://github-readme-stats.vercel.app/api?username=BlackHat-Abhi&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515">
