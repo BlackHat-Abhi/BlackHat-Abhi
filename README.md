@@ -11,9 +11,9 @@
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BlackHat-Abhi&show_icons=true&theme=radical" >
 
 ## 💻 Tools 💻
-<a href="https://github.com/BlackHat-Abhi/AsXGpt.git"><img title="AsXGpt" src="https://github-readme-stats.vercel.app/api/pin/?username=BlackHat-Abhi&repo=AsXGpt&theme=chartreuse-dark"></a>
-<a href="https://github.com/BlackHat-Abhi/AsPentest.git"><img title="AsPentest" src="https://github-readme-stats.vercel.app/api/pin/?username=BlackHat-Abhi&repo=AsPentest&theme=vision-friendly-dark"></a>
-<a href="https://github.com/BlackHat-Abhi/NetHunterX"><img title="NetHunterX" src="https://github-readme-stats.vercel.app/api/pin/?username=BlackHat-Abhi&repo=NetHunterX&theme=dark"></a>
+<a href="https://github.com/BlackHat-Abhi/AHX-HACKING-LAB.git"><img title="AHX-HACKING-LAB" src="https://github-readme-stats.vercel.app/api/pin/?username=BlackHat-Abhi&repo=AHX-HACKING-LAB&theme=chartreuse-dark"></a>
+<a href="https://github.com/BlackHat-Abhi/OnionHost.git"><img title="OnionHost" src="https://github-readme-stats.vercel.app/api/pin/?username=BlackHat-Abhi&repo=OnionHost&theme=vision-friendly-dark"></a>
+<a href="https://github.com/BlackHat-Abhi/NixOnDroid"><img title="NixOnDroid" src="https://github-readme-stats.vercel.app/api/pin/?username=BlackHat-Abhi&repo=NixOnDroid&theme=dark"></a>
 <a href="https://github.com/BlackHat-Abhi/AS-igbrute"><img title="AS-igbrute" src="https://github-readme-stats.vercel.app/api/pin/?username=BlackHat-Abhi&repo=AS-igbrute&theme=tokyonight"></a>
 </p>
 
