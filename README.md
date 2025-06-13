@@ -14,7 +14,7 @@
 <a href="https://github.com/BlackHat-Abhi/AHX-HACKING-LAB.git"><img title="AHX-HACKING-LAB" src="https://github-readme-stats.vercel.app/api/pin/?username=BlackHat-Abhi&repo=AHX-HACKING-LAB&theme=chartreuse-dark"></a>
 <a href="https://github.com/BlackHat-Abhi/OnionHost.git"><img title="OnionHost" src="https://github-readme-stats.vercel.app/api/pin/?username=BlackHat-Abhi&repo=OnionHost&theme=vision-friendly-dark"></a>
 <a href="https://github.com/BlackHat-Abhi/NixOnDroid"><img title="NixOnDroid" src="https://github-readme-stats.vercel.app/api/pin/?username=BlackHat-Abhi&repo=NixOnDroid&theme=dark"></a>
-<a href="https://github.com/BlackHat-Abhi/AS-igbrute"><img title="AS-igbrute" src="https://github-readme-stats.vercel.app/api/pin/?username=BlackHat-Abhi&repo=AS-igbrute&theme=tokyonight"></a>
+<a href="https://github.com/BlackHat-Abhi/SPYCAM"><img title="AS-igbrute" src="https://github-readme-stats.vercel.app/api/pin/?username=BlackHat-Abhi&repo=SPYCAM&theme=tokyonight"></a>
 </p>
 
 #### 👤 My Accounts 👤
