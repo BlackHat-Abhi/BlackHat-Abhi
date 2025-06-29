@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>BlackHat-Abhi</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+
+:root {
+
+    --bg-color: linear-gradient(135deg, #000000, #1a1a1a);
+
+    --text-color: #fff;
+
+    --card-bg: rgba(255, 255, 255, 0.05);
+
+}
+
+body.light-mode {
+
+    --bg-color: linear-gradient(135deg, #f0f0f0, #ffffff);
+
+    --text-color: #000;
+
+    --card-bg: rgba(0, 0, 0, 0.05);
+
+}
+
+body {
+
+    background: var(--bg-color);
+
+    color: var(--text-color);
+
+    font-family: 'Poppins', sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    transition: background 0.5s, color 0.5s;
+
+}
+
+h1 {
+
+    text-align: center;
+
+    color: #66ff33;
+
+    margin: 30px;
+
+    transition: color 0.5s;
+
+}
+
+#toggle-mode {
+
+    position: fixed;
+
+    top: 20px;
+
+    right: 20px;
+
+    padding: 10px 20px;
+
+    background: #66ff33;
+
+    border: none;
+
+    border-radius: 30px;
+
+    cursor: pointer;
+
+    font-weight: 600;
+
+    transition: transform 0.3s, background 0.3s;
+
+}
+
+#toggle-mode:hover {
+
+    transform: scale(1.1);
+
+    background: #00cc99;
+
+}
+
+#img {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 220px;
+
+    height: 220px;
+
+    margin: 30px auto;
+
+    border-radius: 50%;
+
+    overflow: hidden;
+
+    box-shadow: 0 0 40px #66ff33;
+
+    transition: transform 0.5s, box-shadow 0.5s;
+
+}
+
+#img:hover {
+
+    transform: rotate(360deg) scale(1.1);
+
+    box-shadow: 0 0 60px #00cc99;
+
+}
+
+#img img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+}
+
+#About {
+
+    max-width: 800px;
+
+    margin: 20px auto;
+
+    padding: 20px;
+
+    text-align: center;
+
+    background: var(--card-bg);
+
+    border-radius: 15px;
+
+    box-shadow: 0 0 20px rgba(102, 255, 51, 0.2);
+
+    transition: background 0.5s;
+
+}
+
+.container {
+
+    text-align: center;
+
+    margin: 15px 0;
+
+}
+
+button.Contect-us {
+
+    background: linear-gradient(45deg, #66ff33, #00cc99);
+
+    color: #000;
+
+    font-size: 16px;
+
+    width: 280px;
+
+    padding: 12px 25px;
+
+    border: none;
+
+    cursor: pointer;
+
+    border-radius: 50px;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+
+    transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
+
+    font-weight: 600;
+
+}
+
+button.Contect-us:hover {
+
+    background: linear-gradient(45deg, #00cc99, #66ff33);
+
+    transform: translateY(-5px) scale(1.1) rotate(5deg);
+
+    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+<button id="toggle-mode">Dark/Light mode </button>
+
+<h1>BLACKHAT-ABHI</h1>
+
+
+
+<div id="img">
+
+  <img src="https://i.ibb.co/SBq7QfX/IMG-20240302-131619-171.jpg" alt="Abhi">
+
+</div>
+
+
+
+<p id="About">Hello friends! I am an Ethical & BlackHat hacker, whose mission is to bring improvement in the field of technology and cybersecurity, but in a somewhat different way. My name is Abhi and I strive to secure systems and networks using my skills. I aim to work, not in illegal ways, but by accepting challenges, finding loopholes, and fixing them. I have a passion for technology and I try to learn and grow every day by facing new challenges. As it is said, with great power comes great responsibility, and I follow this principle in my work. The world of cybersecurity is a new frontier where something new to learn presents itself every day, and I want to contribute to this journey. If you have any queries or suggestions, feel free to reach out! Thank you!</p>
+
+
+
+<div class="container">
+
+    <button class="Contect-us" onclick="telegram()">Telegram</button>
+
+</div>
+
+<div class="container">
+
+    <button class="Contect-us" onclick="channel()">Join Whatsapp Channel</button>
+
+</div>
+
+<div class="container">
+
+    <button class="Contect-us" onclick="group()">Join Whatsapp Group</button>
+
+</div>
+
+<div class="container">
+
+    <button class="Contect-us" onclick="instagram()">Follow On Instagram</button>
+
+</div>
+
+<div class="container">
+
+    <button class="Contect-us" onclick="github()">Follow On Github</button>
+
+</div>
+
+<hr style="border: none; height: 2px; background: #29ffe2; margin: 40px 0;">
+
+
+
+<script>
+
+const text = document.getElementById('About').innerHTML;
+
+document.getElementById('About').innerHTML = '';
+
+
+
+let i = 0;
+
+const typingEffect = setInterval(() => {
+
+  if (i <= text.length) {
+
+    document.getElementById('About').innerHTML = text.substring(0, i);
+
+    i++;
+
+  } else {
+
+    clearInterval(typingEffect);
+
+  }
+
+}, 30);
+
+
+
+function telegram() { window.location.href = "https://telegram.me/BlackEagle_Sec"; }
+
+function channel() { window.location.href = "https://whatsapp.com/channel/0029Va9G5SOHFxOt0W2QRn10"; }
+
+function group() { window.location.href = "https://chat.whatsapp.com/IHuGoo0QqV0CXmKC5w4aRl"; }
+
+function instagram() { window.location.href = "https://instagram.com/blackhat_abhi"; }
+
+function github() { window.location.href = "https://github.com/BlackHat-Abhi"; }
+
+
+
+document.getElementById('toggle-mode').addEventListener('click', () => {
+
+    document.body.classList.toggle('light-mode');
+
+});
+
+</script>
+
+</body>
+
+</html>
